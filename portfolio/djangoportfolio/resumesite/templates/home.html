@@ -1,0 +1,152 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<title>Kevin Scharfenberger -- Resume</title>
+<!--
+This is a comment. Comments are not displayed in the browser
+&nbsp; ==> 1 unbreakable space character
+&ensp; ==> 2 spaces
+&emsp; ==> 4 spaces
+-->
+
+
+<meta name="viewport" content="width=device-width"/>
+<meta name="description" content="The Resume of Dan Wavle."/>
+<meta charset="UTF-8"> 
+
+<link type="text/css" rel="stylesheet" href="{% static 'css/style.css' %}">
+<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body id="top">
+<div id="cv" class="instaFade">
+	<div class="mainDetails">
+		<div id="headshot" class="quickFade">
+			<img src="{% static 'images/headshot.jpg' %}" alt="Dan Wavle" />
+		</div>
+		
+		<div id="name">
+			<h1 class="quickFade delayTwo">Kevin Scharfenberger</h1>
+			<h2 class="quickFade delayThree">Computer science major</h2>
+<h3 class="quickFade delayFour"><a href="{% url 'cover_letter' %}" target="_blank">Read my cover letter</a></h3>
+		</div>
+		
+		<div id="contactDetails" class="quickFade delayFour">
+		<ul>
+                <li>Email:&emsp;&emsp;<a href="mailto: kevinscharfenberger@gmail.com" target="_blank">  kevinscharfenberger@gmail.com</a></li>
+		<li>Phone:&emsp;&ensp;&nbsp;(502) 999-0945</li>
+                <li>Address:&emsp;4088 Evans Jacobi rd. 
+                    <br> &emsp;&emsp;&emsp;&emsp;&emsp;Georgetown, Indiana 47122</li>
+		<li>Website: &emsp;<a href="https://[insert domain name here]">www.Kevin-Scharfenberger.com</a></li>
+		</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+	
+	<div id="mainArea" class="quickFade delayFive">
+		<section>
+			<article>
+				<div class="sectionTitle">
+					<h1>Summary</h1>
+				</div>
+				
+				<div class="sectionContent">
+					<p>I am a computer science major at Purdue University who strives to learn as much as possible about computers and how they work, because of this I have 
+						learned how to program in several coding languages including Python, Lua, Java, Html, and Css.
+					</p>
+				</div>
+			</article>
+			<div class="clear"></div>
+		</section>
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Key Skills</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<ul>
+					<li>Can use Python, Lua, and Java to create programs that can do various things to help people in their day to day lives</li>
+					<li>Can use Html and Css to create and style a website that appeals to a users eye to bring in traction to a business</li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Work Experience</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h2>Papa Johns</h2>
+					<p class="subDetails">Highlander point</p>
+					<p class="subDetails">9/20/2022 - Present</p>
+                    <ul class="bullet">
+                        <li>Natural team leader who works with team members to get things done in a fast and orderly manner</li>
+                        <li>Works hard to resolve conflicsts within the workplace in a professional way</li>
+                    </ul>
+				</article>
+                
+                
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Education</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h2>Purdue</h2>
+					<p class="subDetails">Start Date 2024</p>
+					<p>Date of graduation 2029</p>
+				</article>
+				
+
+            </div>
+			<div class="clear"></div>
+		</section>
+        
+		<section>
+            <div class="sectionTitle">
+                <h1>References</h1>
+            </div>
+            <div class="sectionContent">
+                <article>
+                    <h2>Daniel Wavle</h2>
+                        <ul class="list">
+                            <li>Educator</li>
+                            <li>Floyd Central Highschool  </li>
+                            <!--
+                            <li>557 Renz Avenue 
+                                <br> Sellersburg, Indiana 47172</li>
+                            -->
+                            <li>dwavle@nafcs.org </li>
+                            <li>(812) 542-8504<br> &emsp; </li>
+                        </ul>
+                </article>
+                
+            </div>
+            <div class="clear"></div>
+        </section>
+	</div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3753241-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</body>
+</html>
